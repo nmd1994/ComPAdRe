@@ -9,4 +9,4 @@ CoMPAdRe tutorial - tutorial of using the CoMPAdRe function on a simulated examp
 CoMPAdRe functions - main and helper functions for the method 
 
 
-Raw 
+Raw Code Used for Paper - The code used to conduct simulations and real data analysis, including the comparisons of CoMPAdRe to competitor methods 
