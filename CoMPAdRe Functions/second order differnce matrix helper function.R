@@ -1,4 +1,5 @@
 library(splines)
+#Function for second order difference matrix for penalized splines. Helper function for main CoMPAdRe function 
 
 pen_mat <- function(inner_knots) {
   knots <- sort(c(rep(range(inner_knots), 3), inner_knots))
