@@ -1,4 +1,11 @@
 #CoMPAdRe function 
+#Uses helper function pen_mat and relies on the dependencies shown in the worked tutorial
+# X is n x p matrix of p predictors, Y is n x q matrix of q responses, 
+#lambda.fac is penalization term for cross validation tuning parameter selection for non-linear predictor-response associations 
+#niter is number of iterations desired for algorithm 
+
+
+
 Compadre=function(X, Y, lambda.fac, niter){
   n=nrow(Y)
   q=ncol(Y)
