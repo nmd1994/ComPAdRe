@@ -96,5 +96,9 @@ for(i in 1:length(response)){
 Y_truth=Y
 Y=Y + E
 
+#------------------------------------------
+#STEP 2: Run CoMPAdRe
+#------------------------------------------
+
 #Run Compadre for 5 iterations, rho.factor = 0.25
 Results=Compadre(X=X,Y=Y,lambda.fac=0.25,niter=5)
