@@ -1,4 +1,4 @@
-# ComPAdRe
+# CoMPAdRe
 
 Software associated with the CoMPAdRe manuscript. This page is organized as follows:
 
